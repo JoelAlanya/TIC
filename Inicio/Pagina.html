@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <title>Iniciar sesión | UNFV </title>
+  <link href="Pagina.css" rel="stylesheet"/>
+  <script src="../animacion.js" defer></script>
+ </head>
+ <body>
+  <main class="login">
+   <img alt="Logo UNFV" src="Contenido/Escudo_UNFV.png"/>
+   <script src="pagina2.js"></script>
+   <h1>Inicia sesión</h1>
+   <p>Portal del Estudiante</p>
+   <form onsubmit="return ingresar()">
+    <label for="correo">
+     Correo de estudiante:
+    </label>
+    <input id="correo" placeholder="202#######@unfv.edu.pe" required="" type="email"/>
+    <label for="clave">
+     Contraseña:
+    </label>
+    <input id="clave" placeholder="Contraseña" required="" type="password"/>
+    <p class="mensaje" id="mensaje">
+    </p>
+    <button type="submit">
+     Ingresar
+    </button>
+   </form>
+   <p>Universidad Nacional Federico Villarreal - 2026</p>
+  </main>
+  <script src="Pagina.js">
+  </script>
+ </body>
+</html>
+

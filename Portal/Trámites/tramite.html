@@ -1,0 +1,91 @@
+<html lang="es">
+ <head>
+
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Trámites | Portal UNFV</title>
+  <link href="tramite.css" rel="stylesheet"/>
+  <script src="../../animacion.js" defer></script>
+ </head>
+ <body>
+  <aside class="menu">
+   <img alt="Logo UNFV" class="logo" src="contenido/Escudo_UNFV.png"/>
+   <nav>
+    <ul>
+     <li>
+      <a href="../Inicio Portal/Contenido.html">
+       Inicio
+      </a>
+     </li>
+     <li>
+      <a href="../Horario/horario.html">
+       Horarios
+      </a>
+     </li>
+     <li>
+      <a class="activo" href="../Trámites/tramite.html">
+       Trámites
+      </a>
+     </li>
+     <li>
+      <a href="../Notas/notas.html">
+       Notas
+      </a>
+     </li>
+    </ul>
+    <div class="sesion">
+     <p>Tu sesión expira en:</p>
+     <h2 id="temporizador">05:00</h2>
+      <button onclick="cerrarSesion()">Cerrar sesión</button>
+    </div>
+<script src="../../temporizador.js"></script>
+   </nav>
+  </aside>
+  <main class="principal">
+   <section class="tarjeta formulario-tramite">
+    <h1>
+     Trámites
+    </h1>
+    <p>
+     Completa los datos de tu solicitud.
+    </p>
+    <form action="Gracias.html">
+     <label for="tipo">
+      Tipo de trámite:
+     </label>
+     <select id="tipo" name="tipo">
+      <option value="matricula">
+       Matrícula
+      </option>
+      <option value="retiro">
+       Retiro
+      </option>
+      <option value="guardar_matricula">
+       Guardar matrícula
+      </option>
+      <option value="denuncia">
+       Denuncia
+      </option>
+     </select>
+     <label for="clave">
+      Contraseña:
+     </label>
+     <input id="clave" name="contraseña" required="" type="password"/>
+     <label for="detalle">
+      Fundamentación de la solicitud:
+     </label>
+     <textarea id="detalle" name="detalle" placeholder="Escriba los detalles de su solicitud aquí..." required="" rows="6"></textarea>
+     <label for="comprobante">
+      Subir comprobante:
+     </label>
+     <input id="comprobante" name="comprobante" required="" type="file"/>
+     <button type="submit">
+      Enviar solicitud
+     </button>
+    </form>
+   </section>
+  </main>
+  <img alt="Estela de Raimondi" class="estela" src="contenido/esteladeraymondi.png"/>
+ </body>
+</html>
+

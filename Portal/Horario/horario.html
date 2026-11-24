@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Horarios | Portal UNFV
+  </title>
+  <link href="horario.css" rel="stylesheet"/>
+  <script src="../../animacion.js" defer></script>
+ </head>
+ <body>
+  <aside class="menu">
+   <img alt="Logo UNFV" class="logo" src="Contenido/Escudo_UNFV.png"/>
+   <nav>
+    <ul>
+     <li>
+      <a href="../Inicio Portal/Contenido.html">
+       Inicio
+      </a>
+     </li>
+     <li>
+      <a class="activo" href="../Horario/horario.html">
+       Horarios
+      </a>
+     </li>
+     <li>
+      <a href="../Trámites/tramite.html">
+       Trámites
+      </a>
+     </li>
+     <li>
+      <a href="../Notas/notas.html">
+       Notas
+      </a>
+     </li>
+    </ul>
+    <div class="sesion">
+     <p>Tu sesión expira en:</p>
+     <h2 id="temporizador">05:00</h2>
+      <button onclick="cerrarSesion()">Cerrar sesión</button>
+    </div>
+<script src="../../temporizador.js"></script>
+   </nav>
+  </aside>
+  <main class="principal">
+   <section class="tarjeta horario-contenedor">
+    <div class="tabla-desplazable">
+      <h1 class="titulo-pagina">
+    Horario de Ingeniería Informática
+   </h1>
+     <table class="tabla-horario">
+      <tr>
+       <th>
+       </th>
+       <th>
+        Lunes
+       </th>
+       <th>
+        Martes
+       </th>
+       <th>
+        Miercoles
+       </th>
+       <th>
+        Jueves
+       </th>
+       <th>
+        Viernes
+       </th>
+       <th>
+        Sabado
+       </th>
+      </tr>
+      <tr>
+       <th>
+        8:00 - 8:50
+       </th>
+       <td rowspan="2">
+        Calculo
+       </td>
+       <td rowspan="4">
+        TIC
+       </td>
+       <td rowspan="4">
+        MADS
+       </td>
+       <td>
+       </td>
+       <td rowspan="4">
+        LDP
+       </td>
+       <td rowspan="4">
+        MDI
+       </td>
+      </tr>
+      <tr>
+       <th>
+        8:50 - 9:40
+       </th>
+       <td rowspan="3">
+        Sociología
+       </td>
+      </tr>
+      <tr>
+       <th>
+        9:40 - 10:30
+       </th>
+      </tr>
+      <tr>
+       <th>
+        10:30 - 11:20
+       </th>
+      </tr>
+      <tr>
+       <th>
+        11:20 - 12:10
+       </th>
+       <td>
+        Fisica
+       </td>
+       <td>
+       </td>
+       <td>
+        Fisica
+       </td>
+       <td>
+        Ingles II
+       </td>
+      </tr>
+      <tr>
+       <th>
+        12:10 - 1:00
+       </th>
+       <td>
+        ALMUERZO
+       </td>
+       <td>
+        ALMUERZO
+       </td>
+       <td>
+        ALMUERZO
+       </td>
+       <td>
+        ALMUERZO
+       </td>
+       <td>
+        ALMUERZO
+       </td>
+       <td>
+        ALMUERZO
+       </td>
+      </tr>
+      <tr>
+       <th>
+        1:00 - 1:50
+       </th>
+       <td rowspan="2">
+        Fisica
+       </td>
+       <td rowspan="2">
+       </td>
+       <td rowspan="2">
+        Fisica
+       </td>
+       <td>
+        Ingles II
+       </td>
+      </tr>
+      <tr>
+       <th>
+        1:50 - 2:40
+       </th>
+       <td rowspan="3">
+        Calculo
+       </td>
+      </tr>
+      <tr>
+       <th>
+        2:40 - 3:30
+       </th>
+      </tr>
+      <tr>
+       <th>
+        3:30 - 4:20
+       </th>
+      </tr>
+     </table>
+    </div>
+   </section>
+   <section class="tarjeta encuesta">
+    <h2>
+     Encuesta: tu curso favorito
+    </h2>
+    <p>
+     Selecciona los cursos que más te gustan:
+    </p>
+    <form action="Gracias.html">
+     <div class="opciones">
+      <label>
+       <input name="curso" type="checkbox" value="calculo"/>
+       Cálculo
+      </label>
+      <label>
+       <input name="curso" type="checkbox" value="fisica"/>
+       Física
+      </label>
+      <label>
+       <input name="curso" type="checkbox" value="tic"/>
+       TIC
+      </label>
+      <label>
+       <input name="curso" type="checkbox" value="mads"/>
+       Medio Ambiente y Desarrollo Sostenible
+      </label>
+      <label>
+       <input name="curso" type="checkbox" value="sociologia"/>
+       Sociología
+      </label>
+      <label>
+       <input name="curso" type="checkbox" value="ldp"/>
+       Liderazgo y Desarrollo Personal
+      </label>
+      <label>
+       <input name="curso" type="checkbox" value="mdi"/>
+       Matemática Discreta a la Informática
+      </label>
+      <label>
+       <input name="curso" type="checkbox" value="ingles"/>
+       Inglés II
+      </label>
+     </div>
+     <button type="submit">
+      Enviar encuesta
+     </button>
+    </form>
+   </section>
+  </main>
+  <img alt="Estela de Raimondi" class="estela" src="Contenido/esteladeraymondi.png"/>
+ </body>
+</html>
+

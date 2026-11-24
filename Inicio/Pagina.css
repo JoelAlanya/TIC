@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient( rgba(255, 248, 235, 0.32), rgba(234, 148, 52, 0.38)), url("Contenido/Uni.jpg") center/cover no-repeat;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login {
+    width: 340px;
+    max-width: 100%;
+    padding: 27px;
+    border-radius: 12px;
+    background: #fff;
+    border: 2px solid #B65B16;
+    text-align: center;
+    box-shadow: 0 5px 15px #0004;
+}
+
+.login img {
+    width: 180px;
+    max-width: 100%;
+}
+
+h1 {
+    margin: 20px 0 6px;
+    color: #B65B16;
+    font-size: 26px;
+}
+
+p {
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    text-align: left;
+    color: #87400F;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #C8A983;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    margin: 18px 0;
+    border: 0;
+    border-radius: 5px;
+    padding: 11px;
+    background: #B65B16;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #D58035;
+}
+
+.mensaje {
+    color: #b00020;
+    font-size: 13px;
+    margin: 12px 0 0;
+}
+
+small {
+    color: #666;
+}
+
+h4 {
+    color: #b00020;
+    font-family: Arial;
+}

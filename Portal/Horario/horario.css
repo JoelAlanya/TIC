@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(21, 27, 38, 0.15), rgba(21, 24, 32, 0.19)), url("../Contenido/Uni_fondo.jpg") center center / cover fixed no-repeat;
+    color: #252525;
+}
+
+.menu {
+    width: 185px;
+    background: linear-gradient(180deg, #B65B16, #D47725);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 18px 10px;
+}
+
+.logo {
+    width: 150px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 28px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+.menu a:hover, .menu a.activo {
+    background: #D58035;
+}
+
+.principal {
+    margin-left: 185px;
+    margin-right: 210px;
+    padding: 28px 24px;
+}
+
+h1, h2, h3 {
+    color: #87400F;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0 0 18px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+.tarjeta {
+    background: #FFFDF9;
+    padding: 22px;
+    border: 1px solid #EAD4B7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 9px #00000012;
+}
+
+.estela {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 175px;
+    object-fit: fill;
+    pointer-events: none;
+}
+
+button, .boton {
+    background: #B65B16;
+    color: white;
+    border: 0;
+    padding: 10px 19px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+button:hover, .boton:hover {
+    background: #D58035;
+}
+
+input, select, textarea {
+    font: inherit;
+    border: 1px solid #C8A983;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #EAB06A;
+}
+
+.titulo-pagina {
+    text-align: center;
+}
+
+.horario-contenedor {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabla-desplazable {
+    overflow-x: auto;
+}
+
+.tabla-horario {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 650px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.tabla-horario th, .tabla-horario td {
+    border: 1px solid #DBBA8E;
+    padding: 10px 5px;
+}
+
+.tabla-horario tr:first-child th {
+    color: white;
+    background: #B65B16;
+}
+
+.tabla-horario tr:not(:first-child) th {
+    background: #FFF0D9;
+    color: #87400F;
+    width: 95px;
+}
+
+.tabla-horario td {
+    background: #FFF9EF;
+}
+
+.tabla-horario td[rowspan] {
+    background: #FBE2BE;
+}
+
+.encuesta {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.encuesta h2 {
+    margin-top: 0;
+}
+
+.opciones {
+    margin: 17px 0 22px;
+}
+
+.opciones label {
+    cursor: pointer;
+    display: inline-block;
+    width: 47%;
+    margin: 8px 0;
+    vertical-align: top;
+}
+
+.opciones input {
+    width: auto;
+}
+
+
+.sesion {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+.sesion p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.sesion h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.sesion button {
+    background: #8B3500;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sesion button:hover {
+    background: #632500;
+}
+/* Asegura el contraste del título sobre la fotografía. */
+.titulo-pagina { text-shadow: 0 1px 5px rgba(255,255,255,.95), 0 0 10px rgba(255,255,255,.65); }
