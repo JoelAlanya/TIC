@@ -1,11 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-    // Respetar la preferencia de movimiento reducido.
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
         return;
     }
 
-    // Animar los elementos principales sin mover el fondo.
     const elementos = document.querySelectorAll(
         "body > :not(script):not(style):not(link)"
     );
